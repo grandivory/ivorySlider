@@ -1,0 +1,19 @@
+ivorySlider
+===========
+
+What is ivorySlider?
+--------------------
+ivorySlider is a jQuery plugin that I created to be a robust and extensible
+slider (an in slideshow, not as in an input element). It allows full use of
+HTML markup for each slide, customized transitions on a per-slide basis, and
+best of all, can be extended by end-users to include their own custom transition
+effects!
+
+How to use:
+-----------
+1. Add ivorySlider.js and ivorySlider.transitions.js to your page
+2. Optionally, add in the default styles in ivorySlider.css
+3. Create html markup for each slide within a container (usually <ul><li>)
+4. After the page has loaded, call .ivorySlider() on your container
+
+For further instructions, see demo.html
