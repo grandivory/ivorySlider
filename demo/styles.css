@@ -1,0 +1,175 @@
+body {
+  background: #000000 url(images/stressed_linen.png) repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #eeeeee;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1em;
+}
+
+p {
+  font-size: 16px;
+}
+
+p.subhead {
+  text-align: center;
+  color: #ffffff;
+}
+
+code,
+.code {
+  font-family: "Source Code Pro", monospace, sans-serif;
+}
+
+#content {
+  max-width: 960px;
+  margin: auto;
+  background: #333333 url(images/wild_oliva.png) repeat;
+  padding: 50px 10px;
+  box-shadow: 0 0 20px 0 #000000;
+}
+
+.ivorySlider-page-nav {
+  position: static;
+  height: 20px;
+}
+
+.ivorySlider-controls {
+  position: static;
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+#slides {
+  list-style: none;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+#slides .slide {
+  width: 90%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 0 5%;
+  color: #ffffff;
+  text-shadow: -1px 1px 3px #000000;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: none;
+  white-space: normal;
+}
+
+#slides #slide1 {
+  background-image: url(images/piano.jpg);
+  display: block;
+}
+
+#slide1 p.attribution {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+#slide2 {
+  background-image: url(images/drum.jpg);
+}
+
+#slide2 h3,
+#slide2 p {
+  width: 40%;
+}
+
+#slide3 {
+  background-image: url(images/cello.jpg);
+}
+
+#slide3 h3,
+#slide3 p {
+  margin-left: 25%;
+}
+
+#slide4 {
+  background-image: url(images/clarinet.jpg);
+}
+
+#slide5 {
+  background-image: url(images/trumpet.jpg);
+}
+
+#slide5 h3,
+#slide5 p {
+  margin-left: 50%;
+}
+
+nav.tabs table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  table-layout: fixed;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+nav.tabs table td {
+  border-left: 1px #000000 inset;
+  padding: 10px;
+}
+
+nav.tabs table td:first-child {
+  border-left: none;
+}
+
+nav.tabs a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+nav.tabs a.active {
+  font-weight: bold;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.first {
+  display: block;
+}
+
+table.options {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.options tr {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+table.options th,
+table.options td {
+  padding: 5px;
+}
+
+table.options td:first-child {
+  text-align: right;
+}

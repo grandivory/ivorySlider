@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'ivorySlider';
+	src:url('font/ivorySlider.eot');
+	src:url('font/ivorySlider.eot?#iefix') format('embedded-opentype'),
+		url('font/ivorySlider.woff') format('woff'),
+		url('font/ivorySlider.ttf') format('truetype'),
+		url('font/ivorySlider.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ivorySlider-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.ivorySlider-page-nav {
+  display: block;
+  text-align: center;
+  font-size: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.ivorySlider-page-nav a {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 3px;
+  border: 2px solid #000000;
+  background-color: #000000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-decoration: none;
+}
+
+.ivorySlider-page-nav a.active {
+  background-color: #ffffff;
+}
+
+.ivorySlider-page-nav a:hover {
+  background-color: #cccccc;
+}
+
+.ivorySlider-controls {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  left: 0;
+}
+
+.ivorySlider-controls a {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  vertical-align: text-top;
+}
+
+.ivorySlider-controls a:hover {
+  color: #ffffff;
+}
+
+.ivorySlider-controls .prev:before,
+.ivorySlider-controls .next:before,
+.ivorySlider-controls .play:before,
+.ivorySlider-controls .pause:before {
+  font-family: 'ivorySlider';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ivorySlider-controls .prev:before {
+  content: "\e002";
+}
+
+.ivorySlider-controls .next:before {
+  content: "\e003";
+}
+
+.ivorySlider-controls .play:before {
+  content: "\e000";
+}
+
+.ivorySlider-controls .pause:before {
+  content: "\e001";
+}
+
+.ivorySlider-controls .ivorySlider-timer-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 6px;
+  border: 2px solid #000000;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.ivorySlider-controls .ivorySlider-timer-bar {
+  background-color: #ffffff;
+  height: 100%;
+  width: 0;
+}
+
+.ivorySlider-slider {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  white-space: nowrap;
+}
